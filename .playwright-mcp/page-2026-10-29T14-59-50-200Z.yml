@@ -1,0 +1,55 @@
+- generic [active] [ref=f7e1]:
+  - navigation [ref=f7e2]:
+    - link "Sistema de Gestão de Estoque (SGE)" [ref=f7e4] [cursor=pointer]:
+      - /url: /
+  - generic [ref=f7e6]:
+    - generic [ref=f7e8]:
+      - button "" [ref=f7e9] [cursor=pointer]
+      - text:        
+      - separator
+    - main [ref=f7e13]:
+      - generic [ref=f7e16]:
+        - generic [ref=f7e19]:
+          - heading "Quantidade de produtos" [level=5] [ref=f7e20]
+          - paragraph [ref=f7e21]: "0"
+        - generic [ref=f7e24]:
+          - heading "Custo do estoque" [level=5] [ref=f7e25]
+          - paragraph [ref=f7e26]: R$ 0,00
+        - generic [ref=f7e29]:
+          - heading "Valor do estoque" [level=5] [ref=f7e30]
+          - paragraph [ref=f7e31]: R$ 0,00
+        - generic [ref=f7e34]:
+          - heading "Lucro do estoque" [level=5] [ref=f7e35]
+          - paragraph [ref=f7e36]: R$ 0,00
+      - generic [ref=f7e37]:
+        - generic [ref=f7e40]:
+          - textbox "Título" [ref=f7e41]
+          - textbox "Número de Série" [ref=f7e42]
+          - button "" [ref=f7e43] [cursor=pointer]
+        - link " Novo Produto" [ref=f7e46] [cursor=pointer]:
+          - /url: /products/create/
+          - generic [ref=f7e47]: 
+          - text: Novo Produto
+      - generic [ref=f7e51]:
+        - combobox [ref=f7e52]:
+          - option "Todas as Categorias" [selected]
+        - combobox [ref=f7e53]:
+          - option "Todas as Marcas" [selected]
+        - button " Filtrar" [ref=f7e54] [cursor=pointer]:
+          - generic [ref=f7e55]: 
+          - text: Filtrar
+      - table [ref=f7e57]:
+        - rowgroup [ref=f7e58]:
+          - row [ref=f7e59]:
+            - columnheader "ID" [ref=f7e60]
+            - columnheader "Título" [ref=f7e61]
+            - columnheader "Categoria" [ref=f7e62]
+            - columnheader "Marca" [ref=f7e63]
+            - columnheader "Preço de Custo" [ref=f7e64]
+            - columnheader "Preço de Venda" [ref=f7e65]
+            - columnheader "Número de Série" [ref=f7e66]
+            - columnheader "Quantidade" [ref=f7e67]
+            - columnheader "Ações" [ref=f7e68]
+        - rowgroup
+  - contentinfo [ref=f7e69]:
+    - generic [ref=f7e70]: © 2024 SGE

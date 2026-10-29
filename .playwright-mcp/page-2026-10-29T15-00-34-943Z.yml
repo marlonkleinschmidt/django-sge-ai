@@ -1,0 +1,82 @@
+- generic [active] [ref=f15e1]:
+  - navigation [ref=f15e2]:
+    - link "Sistema de Gestão de Estoque (SGE)" [ref=f15e4] [cursor=pointer]:
+      - /url: /
+  - generic [ref=f15e6]:
+    - generic [ref=f15e8]:
+      - text: 
+      - list [ref=f15e10]:
+        - listitem [ref=f15e11]:
+          - link " Dashboard" [ref=f15e12] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f15e13]: 
+            - text: Dashboard
+        - listitem [ref=f15e14]:
+          - link " Fornecedores" [ref=f15e15] [cursor=pointer]:
+            - /url: /suppliers/list/
+            - generic [ref=f15e16]: 
+            - text: Fornecedores
+        - listitem [ref=f15e17]:
+          - link " Marcas" [ref=f15e18] [cursor=pointer]:
+            - /url: /brands/list/
+            - generic [ref=f15e19]: 
+            - text: Marcas
+        - listitem [ref=f15e20]:
+          - link " Categorias" [ref=f15e21] [cursor=pointer]:
+            - /url: /categories/list/
+            - generic [ref=f15e22]: 
+            - text: Categorias
+        - listitem [ref=f15e23]:
+          - link " Produtos" [ref=f15e24] [cursor=pointer]:
+            - /url: /products/list/
+            - generic [ref=f15e25]: 
+            - text: Produtos
+        - listitem [ref=f15e26]:
+          - link " Entradas" [ref=f15e27] [cursor=pointer]:
+            - /url: /inflows/list/
+            - generic [ref=f15e28]: 
+            - text: Entradas
+        - listitem [ref=f15e29]:
+          - link " Saídas" [ref=f15e30] [cursor=pointer]:
+            - /url: /outflows/list/
+            - generic [ref=f15e31]: 
+            - text: Saídas
+        - listitem [ref=f15e32]:
+          - button " Sair" [ref=f15e34] [cursor=pointer]:
+            - generic [ref=f15e35]: 
+            - text: Sair
+      - separator
+    - main [ref=f15e38]:
+      - heading [level=2] [ref=f15e41]:
+        - button "SGE Agent" [ref=f15e42] [cursor=pointer]
+      - generic [ref=f15e45]:
+        - generic [ref=f15e48]:
+          - heading "Quantidade de produtos" [level=5] [ref=f15e49]
+          - paragraph [ref=f15e50]: "0"
+        - generic [ref=f15e53]:
+          - heading "Custo do estoque" [level=5] [ref=f15e54]
+          - paragraph [ref=f15e55]: R$ 0,00
+        - generic [ref=f15e58]:
+          - heading "Valor do estoque" [level=5] [ref=f15e59]
+          - paragraph [ref=f15e60]: R$ 0,00
+        - generic [ref=f15e63]:
+          - heading "Lucro do estoque" [level=5] [ref=f15e64]
+          - paragraph [ref=f15e65]: R$ 0,00
+      - generic [ref=f15e68]:
+        - generic [ref=f15e71]:
+          - heading "Quantidade de vendas" [level=5] [ref=f15e72]
+          - paragraph [ref=f15e73]: "0"
+        - generic [ref=f15e76]:
+          - heading "Produtos vendidos" [level=5] [ref=f15e77]
+          - paragraph [ref=f15e78]: "0"
+        - generic [ref=f15e81]:
+          - heading "Valor das vendas" [level=5] [ref=f15e82]
+          - paragraph [ref=f15e83]: R$ 0,00
+        - generic [ref=f15e86]:
+          - heading "Lucro das vendas" [level=5] [ref=f15e87]
+          - paragraph [ref=f15e88]: R$ 0,00
+      - generic [ref=f15e89]:
+        - heading "Valor de vendas (Últimos 7 Dias)" [level=5] [ref=f15e91]
+        - heading "Quantidade de Vendas Diárias" [level=5] [ref=f15e94]
+  - contentinfo [ref=f15e96]:
+    - generic [ref=f15e97]: © 2024 SGE

@@ -1,0 +1,18 @@
+- main [ref=f13e3]:
+  - generic [ref=f13e4]:
+    - paragraph [ref=f13e8]: SGE
+    - paragraph [ref=f13e9]: Sistema de Gestão de Estoque
+  - region [ref=f13e10]:
+    - heading "Bem-vindo de volta" [level=1] [ref=f13e11]
+    - paragraph [ref=f13e12]: Acesse sua conta para continuar.
+    - generic [ref=f13e13]:
+      - generic [ref=f13e14]:
+        - generic [ref=f13e15]: Usuário
+        - textbox "Usuário" [active] [ref=f13e17]:
+          - /placeholder: Seu nome de usuário
+      - generic [ref=f13e18]:
+        - generic [ref=f13e19]: Senha
+        - textbox "Senha" [ref=f13e21]:
+          - /placeholder: Sua senha
+      - button "Entrar" [ref=f13e22]
+  - generic [ref=f13e25]: © 2026 SGE – Sistema de Gestão de Estoque

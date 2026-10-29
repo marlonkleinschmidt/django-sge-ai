@@ -1,0 +1,3 @@
+[     227ms] [WARNING] The browser build of Tailwind CSS should not be used in production. To use Tailwind CSS in production, use the Tailwind CLI, Vite plugin, or PostCSS plugin: https://tailwindcss.com/docs/installation @ https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11:6
+[     485ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/favicon.ico:0
+[   56038ms] [WARNING] The browser build of Tailwind CSS should not be used in production. To use Tailwind CSS in production, use the Tailwind CLI, Vite plugin, or PostCSS plugin: https://tailwindcss.com/docs/installation @ https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11:6

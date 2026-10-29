@@ -1,0 +1,1 @@
+[      89ms] [WARNING] The browser build of Tailwind CSS should not be used in production. To use Tailwind CSS in production, use the Tailwind CLI, Vite plugin, or PostCSS plugin: https://tailwindcss.com/docs/installation @ https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11:6
